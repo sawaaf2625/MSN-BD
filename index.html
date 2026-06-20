@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>ميثاء بنت سيف</title>
+</head>
+<body style="text-align:center;font-family:Tahoma;padding:30px">
+
+<h1>عيد ميلاد ميثاء بنت سيف 🎂</h1>
+
+<input id="name" placeholder="اكتب اسمك">
+
+<button onclick="show()">عرض الشهادة</button>
+
+<div id="certificate" style="display:none;margin-top:30px">
+
+<h2>شكرًا</h2>
+
+<h1 id="guest"></h1>
+
+<p>
+لأنك شاركتني فرحة يوم ميلادي الثاني
+</p>
+
+<p>
+أنتم أهلي وعزوتي وبوجودكم تكتمل فرحتي
+</p>
+
+<h3>
+ميثاء بنت سيف 💖
+</h3>
+
+</div>
+
+<script>
+function show(){
+let name=document.getElementById('name').value;
+document.getElementById('guest').innerText=name;
+document.getElementById('certificate').style.display='block';
+}
+</script>
+
+</body>
+</html>
